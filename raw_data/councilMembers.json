@@ -1,0 +1,250 @@
+[
+  {
+    "ward_no": 15,
+    "name": "Shri Ashpak Ahmed Shaikh",
+    "designation": "President",
+    "address": "Subhashnagar",
+    "contact_number": 9611449350,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/riyaz.jpg"
+  },
+  {
+    "ward_no": 26,
+    "name": "Smt. Shilpa W Kode",
+    "designation": "Vice-President",
+    "address": "Old Dandeli",
+    "contact_number": 7899363525,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/shilpa.jpg"
+  },
+  {
+    "ward_no": 17,
+    "name": "Smt. Sudha R Jadhav",
+    "designation": "Chairman",
+    "address": "Old Dandeli",
+    "contact_number": 9741247698,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/sudha%20jadhav.jpg"
+  },
+  {
+    "ward_no": 1,
+    "name": "Smt. Rukmini S Bagade",
+    "designation": "Member",
+    "address": "Gandhinagar",
+    "contact_number": 9611090839,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/rukmani.jpg"
+  },
+  {
+    "ward_no": 2,
+    "name": "Shri. Budhiwanth S Patil",
+    "designation": "Member",
+    "address": "Ashraya Colony",
+    "contact_number": 9980603608,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/budhiwant.jpg"
+  },
+  {
+    "ward_no": 3,
+    "name": "Shri. Nandish G Mungarwadi",
+    "designation": "Member",
+    "address": "Ganesh Nagar",
+    "contact_number": 7899564057,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/mungarwadi.jpg"
+  },
+  {
+    "ward_no": 4,
+    "name": "Shri. Sanjay Nandyalkar",
+    "designation": "Member",
+    "address": "Ambewadi",
+    "contact_number": 9742035124,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/sanju.jpg"
+  },
+  {
+    "ward_no": 5,
+    "name": "Shri Asif F Mujawar",
+    "designation": "Member",
+    "address": "Patel Nagar",
+    "contact_number": 9740172163,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/asif.jpg"
+  },
+  {
+    "ward_no": 6,
+    "name": "Smt. Shahida Pathan",
+    "designation": "Member",
+    "address": "Maruthinagar",
+    "contact_number": 9845970147,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/shaheeda.jpg"
+  },
+  {
+    "ward_no": 7,
+    "name": "Shri. Maulali Mulla",
+    "designation": "Member",
+    "address": "Vanashrinagar",
+    "contact_number": 9845874331,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/maula%20ali.jpg"
+  },
+  {
+    "ward_no": 8,
+    "name": "Smt. Yasmin R kittur",
+    "designation": "Member",
+    "address": "Azadnagar",
+    "contact_number": 9449762626,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/yasmin.jpeg"
+  },
+  {
+    "ward_no": 9,
+    "name": "Smt. Ramadevi Ravindra",
+    "designation": "Member",
+    "address": "Basweshwarnagar",
+    "contact_number": 9886909980,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/Ramadevi.jpeg"
+  },
+  {
+    "ward_no": 10,
+    "name": "Shri. Abdul Majid Sanadi",
+    "designation": "Member",
+    "address": "Subhashnagar",
+    "contact_number": 9739423873,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/majeed.jpg"
+  },
+  {
+    "ward_no": 11,
+    "name": "Shri Mahadev Jamadar",
+    "designation": "Member",
+    "address": "Barchi Road",
+    "contact_number": 9108976347,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/mahadev.jpeg"
+  },
+  {
+    "ward_no": 12,
+    "name": "Shri Vijaykumar Kolekar",
+    "designation": "Member",
+    "address": "Township",
+    "contact_number": 9448934084,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/vijay.jpg"
+  },
+  {
+    "ward_no": 13,
+    "name": "Shri Mohan Halvahi",
+    "designation": "Member",
+    "address": "14th Block",
+    "contact_number": 9448025328,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/mohan.jpg"
+  },
+  {
+    "ward_no": 14,
+    "name": "Smt. Ruhina Khateeb",
+    "designation": "Member",
+    "address": "Township",
+    "contact_number": 9008079338,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/ruhina.jpg"
+  },
+  {
+    "ward_no": 16,
+    "name": "Smt. Annapurn Balkot",
+    "designation": "Member",
+    "address": "WCPM",
+    "contact_number": 9449013251,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/annapurna.jpeg"
+  },
+  {
+    "ward_no": 18,
+    "name": "Smt. Sugandha Kamble",
+    "designation": "Member",
+    "address": "Bombay Chawl",
+    "contact_number": 9742794551,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/Sughanda.jpeg"
+  },
+  {
+    "ward_no": 19,
+    "name": "Shri Dashrat Bandivaddar",
+    "designation": "Member",
+    "address": "DFA Township",
+    "contact_number": 9916180881,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/dashrat.jpg"
+  },
+  {
+    "ward_no": 20,
+    "name": "Shri Narendra B Chohan",
+    "designation": "Member",
+    "address": "Lenin Road",
+    "contact_number": 9986754611,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/narendra.jpeg"
+  },
+  {
+    "ward_no": 21,
+    "name": "Smt. Padmaja P Jannu",
+    "designation": "Member",
+    "address": "JN road",
+    "contact_number": 9880120444,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/padma.jpeg"
+  },
+  {
+    "ward_no": 22,
+    "name": "Smt. Mahadevi M badarshet",
+    "designation": "Member",
+    "address": "WCPM",
+    "contact_number": 9972537690,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/mahadevi.jpeg"
+  },
+  {
+    "ward_no": 23,
+    "name": "Shri Vishnu L Vajve",
+    "designation": "Member",
+    "address": "WCPM",
+    "contact_number": 9916879622,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/vishnu.jpeg"
+  },
+  {
+    "ward_no": 24,
+    "name": "Smt. Shobha T Jadhav",
+    "designation": "Member",
+    "address": "WCPM",
+    "contact_number": 9449453920,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/shoba.jpeg"
+  },
+  {
+    "ward_no": 25,
+    "name": "Smt. Sapurabi A Yaragatti",
+    "designation": "Member",
+    "address": "Old Dandeli",
+    "contact_number": 8867462683,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/sapura.jpg"
+  },
+  {
+    "ward_no": 27,
+    "name": "Shri Anil Naikar",
+    "designation": "Member",
+    "address": "Old Dandeli",
+    "contact_number": 9686933095,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/anil.jpg"
+  },
+  {
+    "ward_no": 28,
+    "name": "Shri Roshanjeet Shivdasan",
+    "designation": "Member",
+    "address": "Kulgi Road",
+    "contact_number": 9448797274,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/Roshan.jpeg"
+  },
+  {
+    "ward_no": 29,
+    "name": "Smt. Preeti U Nayar",
+    "designation": "Member",
+    "address": "Haliyal Road",
+    "contact_number": 9663387339,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/preety.jpg"
+  },
+  {
+    "ward_no": 30,
+    "name": "Smt. Saraswati B Rajput",
+    "designation": "Member",
+    "address": "3rd No Gate",
+    "contact_number": 9611223136,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/saraswati.jpg"
+  },
+  {
+    "ward_no": 31,
+    "name": "Smt. VenkatRamanamma Maitkuri",
+    "designation": "Member",
+    "address": "Bailpar",
+    "contact_number": 8197678483,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/venkatamma.jpg"
+  }
+]

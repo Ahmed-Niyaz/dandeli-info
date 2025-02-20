@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Name",
+    "designation": "Designation",
+    "address": "Address",
+    "Contact No": "Contact No",
+    "image_src": "image_src"
+  },
+  {
+    "name": "Smt. Sudha R Jadhav",
+    "designation": "Chairman",
+    "address": "Old Dandeli",
+    "Contact No": 9741247698,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/sudha%20jadhav_1.jpg"
+  },
+  {
+    "name": "Smt. Preeti U Nayar",
+    "designation": "Member",
+    "address": "Haliyal Road",
+    "Contact No": 9663387339,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/preety_0.jpg"
+  },
+  {
+    "name": "Shri Anil Naikar",
+    "designation": "Member",
+    "address": "Old Dandeli",
+    "Contact No": 9686933095,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/anil_0.jpg"
+  },
+  {
+    "name": "Smt. VenkatRamanamma Maitkuri",
+    "designation": "Member",
+    "address": "Bailpar",
+    "Contact No": 8197678483,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/venkatamma_0.jpg"
+  },
+  {
+    "name": "Shri. Nandish G Mungarwadi",
+    "designation": "Member",
+    "address": "Ganesh Nagar",
+    "Contact No": 7899564057,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/mungarwadi_0.jpg"
+  },
+  {
+    "name": "Smt. Sugandha Kamble",
+    "designation": "Member",
+    "address": "Bombay Chawl",
+    "Contact No": 9742794551,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/Sughanda_0.jpeg"
+  },
+  {
+    "name": "Smt. Rukmini S Bagade",
+    "designation": "Member",
+    "address": "Gandhinagar",
+    "Contact No": 9611090839,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/rukmani_0.jpg"
+  },
+  {
+    "name": "Smt. Sapurabi A Yaragatti",
+    "designation": "Member",
+    "address": "Old Dandeli",
+    "Contact No": 8867462683,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/sapura_0.jpg"
+  },
+  {
+    "name": "Shri Mohan Halvahi",
+    "designation": "Member",
+    "address": "14th Block",
+    "Contact No": 9448025328,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/mohan_0.jpg"
+  },
+  {
+    "name": "Shri. Abdul Majid Sanadi",
+    "designation": "Member",
+    "address": "Subhashnagar",
+    "Contact No": 9739423873,
+    "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/majeed_0.jpg"
+  }
+]
