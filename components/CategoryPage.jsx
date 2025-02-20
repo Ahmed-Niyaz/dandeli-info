@@ -34,6 +34,7 @@ const categories = [
   // { name: "News", icon: <FaNewspaper />, slug: "news" },
   { name: "Govt Services", icon: <FaLandmark />, slug: "govt-services" },
   { name: "Education", icon: <FaGraduationCap />, slug: "education" },
+  { name: "Helpline", icon: <FaHandsHelping />, slug: "helpline" },
   // { name: "Complaints", icon: <FaCommentDots />, slug: "complaints" },
   // { name: "Community Work", icon: <FaHandsHelping />, slug: "community-work" },
   // { name: "Real Estate", icon: <FaHome />, slug: "real-estate" },
