@@ -4,7 +4,7 @@
         "designation": "MP",
         "description": "12-Uttar Kannada Parliamentary Constituency",
         "address": "-",
-        "contact_number": "-",
+        "contact_number": null,
         "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/Kageri.png"
     },
     {
@@ -12,13 +12,13 @@
         "designation": "MLA",
         "description": "76-Haliyal Assembly Constituency",
         "address": "Haliyal",
-        "contact_number": "-",
+        "contact_number": null,
         "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/MLA.jpg"
     },
     {
         "name": "Sri Ganapati D Ulvekar",
         "designation": "MLC",
-        "description": "",
+        "description": null,
         "address": "Lingnaikwada Karwar-581301",
         "contact_number": "9448206392",
         "image_src": "http://www.dandelicity.mrc.gov.in/sites/dandelicity.mrc.gov.in/files/inline-images/MLC.jpg"

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "CANARA BANK",
+    "branch": "Dandeli",
+    "ifsc": "CNB0010307",
+    "address": "JN Road Dandeli",
+    "contact_number": "08284231367",
+    "email": "cb10307@canarabank.com",
+    "image": "https://via.placeholder.com/40"
+  },
+  {
+    "name": "CANARA BANK KUMBARKOPPA",
+    "branch": "Old Dandeli",
+    "ifsc": "CNB0010327",
+    "address": "Old Dandeli",
+    "contact_number": "9449860327",
+    "email": "cb10327@canarabank.com",
+    "image": "https://via.placeholder.com/40"
+  },
+  {
+    "name": "CENTRAL BANK OF INDIA",
+    "branch": "Dandeli",
+    "ifsc": "CBIN0828168",
+    "address": "JN Road Dandeli",
+    "contact_number": "08284231471",
+    "email": "bmhubl2168@centralbank.co.in",
+    "image": "https://via.placeholder.com/40"
+  },
+  {
+    "name": "UNION BANK",
+    "branch": "Dandeli",
+    "ifsc": "UBIN0912531",
+    "address": "JN Road Dandeli",
+    "contact_number": "08284231401",
+    "email": "cb0125@corpbank.co.in",
+    "image": "https://via.placeholder.com/40"
+  },
+  {
+    "name": "ICICI BANK LIMITED",
+    "branch": "Dandeli",
+    "ifsc": "ICIC0003527",
+    "address": "WCPM",
+    "contact_number": "9902788889",
+    "email": "customer.care@icicibank.com",
+    "image": "https://via.placeholder.com/40"
+  },
+  {
+    "name": "KARNATAKA BANK LIMITED",
+    "branch": "Dandeli",
+    "ifsc": "KARB0000214",
+    "address": "JN Road Dandeli",
+    "contact_number": "08284231274",
+    "email": "dandeli@ktkbank.com",
+    "image": "https://via.placeholder.com/40"
+  },
+  {
+    "name": "KARNATAKA VIKAS GRAMEENA BANK",
+    "branch": "Dandeli",
+    "ifsc": "KVGB0004501",
+    "address": "JN Road Dandeli",
+    "contact_number": "9480694957",
+    "email": "kvgb101@kvgbank.com",
+    "image": "https://via.placeholder.com/40"
+  },
+  {
+    "name": "STATE BANK OF INDIA",
+    "branch": "Dandeli",
+    "ifsc": "SBIN0004010",
+    "address": "JN Road Dandeli",
+    "contact_number": "08284233777",
+    "email": "sbi.1273@sbi.co.in",
+    "image": "https://via.placeholder.com/40"
+  },
+  {
+    "name": "STATE BANK OF INDIA",
+    "branch": "BANGURNAGAR",
+    "ifsc": "SBIN0004026",
+    "address": "WCPM",
+    "contact_number": "08284231339",
+    "email": "sbi.3162@sbi.co.in",
+    "image": "https://via.placeholder.com/40"
+  },
+  {
+    "name": "KDCC",
+    "branch": "Dandeli",
+    "ifsc": "KS0000433",
+    "address": "WCPM",
+    "contact_number": "08284231433",
+    "email": "kdccdandeli@gmail.com",
+    "image": "https://via.placeholder.com/40"
+  }
+]

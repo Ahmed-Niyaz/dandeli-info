@@ -17,24 +17,28 @@ import {
   FaHome,
   FaCalendarAlt,
   FaEllipsisH,
+  FaCity,
+  FaMoneyCheckAlt,
 } from "react-icons/fa";
 
 
 const categories = [
+  { name: "Banks", icon: <FaMoneyCheckAlt />, slug: "banks" },
+  { name: "About Dandeli", icon: <FaCity />, slug: "about-dandeli" },
   { name: "Restaurants", icon: <FaUtensils />, slug: "restaurants" },
-  { name: "Accommodation", icon: <FaBed />, slug: "accommodation" },
+  // { name: "Accommodation", icon: <FaBed />, slug: "accommodation" },
   { name: "Transports", icon: <FaBus />, slug: "transports" },
-  { name: "Services", icon: <FaTools />, slug: "services" },
-  { name: "Shopping", icon: <FaShoppingBag />, slug: "shopping" },
-  { name: "Jobs", icon: <FaBriefcase />, slug: "jobs" },
-  { name: "News", icon: <FaNewspaper />, slug: "news" },
-  { name: "Gov Services", icon: <FaLandmark />, slug: "gov-services" },
+  // { name: "Services", icon: <FaTools />, slug: "services" },
+  // { name: "Shopping", icon: <FaShoppingBag />, slug: "shopping" },
+  // { name: "Jobs", icon: <FaBriefcase />, slug: "jobs" },
+  // { name: "News", icon: <FaNewspaper />, slug: "news" },
+  { name: "Govt Services", icon: <FaLandmark />, slug: "govt-services" },
   { name: "Education", icon: <FaGraduationCap />, slug: "education" },
-  { name: "Complaints", icon: <FaCommentDots />, slug: "complaints" },
-  { name: "Community Work", icon: <FaHandsHelping />, slug: "community-work" },
-  { name: "Real Estate", icon: <FaHome />, slug: "real-estate" },
-  { name: "Events", icon: <FaCalendarAlt />, slug: "events" },
-  { name: "Others", icon: <FaEllipsisH />, slug: "others" },
+  // { name: "Complaints", icon: <FaCommentDots />, slug: "complaints" },
+  // { name: "Community Work", icon: <FaHandsHelping />, slug: "community-work" },
+  // { name: "Real Estate", icon: <FaHome />, slug: "real-estate" },
+  // { name: "Events", icon: <FaCalendarAlt />, slug: "events" },
+  // { name: "Others", icon: <FaEllipsisH />, slug: "others" },
 ];
 
 export default function CategoryPage() {

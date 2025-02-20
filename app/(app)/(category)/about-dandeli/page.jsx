@@ -1,4 +1,6 @@
 import Image from "next/image";
+import educationData from "../../../../data/schoolData.json";
+import Link from "next/link";
 
 const DandeliInfo = () => {
   return (
@@ -12,8 +14,16 @@ const DandeliInfo = () => {
           width={"100"}
           height={"100"}
         />
-        <p className="text-sm text-gray-500">
-          Coordinates: <a href="https://maps.app.goo.gl/XzGDQfCZbk1SqRTS6" target="_blank">15.2361° N, 74.6173° E</a>
+        <p className="text-sm mt-4 text-gray-500">
+          Coordinates:{" "}
+          <a
+            href="https://maps.app.goo.gl/XzGDQfCZbk1SqRTS6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 hover:underline"
+          >
+            15.2361° N, 74.6173° E
+          </a>
         </p>
       </header>
 
@@ -27,15 +37,15 @@ const DandeliInfo = () => {
           and Muslim families; nestled on the bank of the Kali river, the town
           gradually transformed into an industrial hub with pioneering
           companies—such as The Indian Plywood Manufacturing Company, Lalbhai
-          Ferro-manganese Factory, West Coast Paper Mill, and Indian Saw
-          Mill—along with several smaller industries linked to the Karnataka
-          Power Corporation, constructing power-generating dams along the river
-          and paving the way for what was later known as new-Dandeli. At the
-          same time, education was almost non-existent until 1936, when local
+          Ferro-manganese Factory, West Coast Paper Mill, and Indian Saw Mill—
+          along with several smaller industries linked to the Karnataka Power
+          Corporation, constructing power-generating dams along the river and
+          paving the way for what was later known as new-Dandeli. At the same
+          time, education was almost non-existent until 1936, when local
           visionaries Shivaji Narvekar, Pundalik Pai, Sadanand Gopal Nadkarni,
           Balappa Chavan, and Bapshet came together to build a modest one-room
           school in a hut on a nearby hill, appointing Ramachandra Ganapat
-          Nayak—who had migrated from Sanikatta near Gokarn—to run the school;
+          Nayak— who had migrated from Sanikatta near Gokarn—to run the school;
           starting with just 18 students, three of whom were older than their
           teacher R.G. Nayak, the school soon became a symbol of the community's
           resolve for progress, earning official recognition from the British
@@ -92,72 +102,36 @@ const DandeliInfo = () => {
         </p>
       </section>
 
+      {/* Education Section with Dynamic Institution Data */}
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Education</h2>
-        <div>
-          <h3 className="text-xl font-semibold mt-4">Schools in Dandeli</h3>
-          <ul className="list-disc ml-6">
-            <li>
-              St Michaels Convent School, Dandeli (Primary and High School)
-            </li>
-            <li>Rotary School, Dandeli (Primary and High School)</li>
-            <li>
-              Janata Vidyalaya, Dandeli (Primary and High School – Kannada and
-              English medium)
-            </li>
-            <li>DFA School</li>
-            <li>Anglo Urdu High School (Muslim Education Society Dandeli)</li>
-            <li>Government School, Dandeli</li>
-            <li>Kanya Vidyalaya, Dandeli</li>
-            <li>Tauheed Education Society</li>
-            <li>
-              Bangur Nagar Hindi Higher Secondary School (Dandeli Education
-              Society Hindi School)
-            </li>
-            <li>BLDE Education Society</li>
-            <li>Govt. School Bilpar Dandeli (Primary and High School)</li>
-            <li>Bangur Nagar Kannada Higher Primary School</li>
-            <li>Adarsh Vidyalaya School (Ambewadi)</li>
-            <li>Government Primary School, Ambewadi</li>
-            <li>Paridyan School</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mt-4">
-            Pre-university Colleges
-          </h3>
-          <ul className="list-disc ml-6">
-            <li>Bangur Nagar Pre-University Composite Junior College</li>
-            <li>Janata Vidyalaya</li>
-            <li>Tauheed Education Society</li>
-            <li>Government College Old Dandeli</li>
-            <li>Kanya Vidyalaya Pre-university College, Dandeli</li>
-            <li>K.L.E. Society's Institute of Nursing Sciences, Dandeli</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mt-4">Degree Colleges</h3>
-          <ul className="list-disc ml-6">
-            <li>DES Bangaur Nagar Degree College</li>
-            <li>Govt Degree College, Dandeli</li>
-            <li>Govt Degree College, Old Dandeli</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mt-4">Other Institutions</h3>
-          <ul className="list-disc ml-6">
-            <li>Sarvatomukh Vikas Kendra Dandeli (RI)</li>
-            <li>S.V.K.'s Andakarimth Udyog Margadarshi Kendra Dandeli</li>
-            <li>Kali Seva Pratistan Ganesh Nagar Dandeli</li>
-            <li>
-              Govt. Tool Room & Training Centre: Ambewadi Industrial Estate
-            </li>
-            <li>
-              Asha Kiran Rural Private Industrial Training Institute, Ambewadi –
-              under the aegis of Karwar Diocesan Development Council, Bishop's
-              House, Karwar
-            </li>
-            <li>S.U.C. Polytechnic, Dandeli</li>
-            <li>VTU – National Academy for Skill Development, Dandeli</li>
-          </ul>
-        </div>
+        <h2 className="text-2xl font-semibold mb-2"><Link href={"/education"}>Education</Link></h2>
+        {[
+          "schools",
+          "preUniversity",
+          "degreeColleges",
+          "otherInstitutions",
+        ].map((section) => (
+          <div key={section} className="mb-6">
+            <h3 className="text-xl font-semibold mt-4">
+            <Link href={"/education"}>{section.replace(/([A-Z])/g, " $1")}</Link>
+            </h3>
+            <ul className="list-disc ml-6">
+              {educationData[section].map((item, index) => (
+                <li key={index}>
+                  <Link href={"/education"}>{item.name}{" "}</Link>
+                  {/* <a
+                    href={item.mapLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 hover:underline"
+                  >
+                    View on Google Maps
+                  </a> */}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </section>
 
       <section className="mb-6">

@@ -1,0 +1,197 @@
+{
+    "schools": [
+      {
+        "name": "St Michaels Convent School, Dandeli (Primary and High School)",
+        "image": "https://via.placeholder.com/150?text=St+Michaels+Convent+School",
+        "location": "Ambewadi, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Ambewadi%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Rotary School, Dandeli (Primary and High School)",
+        "image": "https://via.placeholder.com/150?text=Rotary+School",
+        "location": "Central Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Central%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Janata Vidyalaya, Dandeli (Primary and High School - Kannada & English)",
+        "image": "https://via.placeholder.com/150?text=Janata+Vidyalaya",
+        "location": "Main Road, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Main%20Road%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "DFA School",
+        "image": "https://via.placeholder.com/150?text=DFA+School",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Anglo Urdu High School (Muslim Education Society Dandeli)",
+        "image": "https://via.placeholder.com/150?text=Anglo+Urdu+High+School",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Government School, Dandeli",
+        "image": "https://via.placeholder.com/150?text=Government+School",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Kanya Vidyalaya, Dandeli",
+        "image": "https://via.placeholder.com/150?text=Kanya+Vidyalaya",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Tauheed Education Society",
+        "image": "https://via.placeholder.com/150?text=Tauheed+Education+Society",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Bangur Nagar Hindi Higher Secondary School (Dandeli Education Society Hindi School)",
+        "image": "https://via.placeholder.com/150?text=Bangur+Nagar+Hindi+School",
+        "location": "Bangur Nagar, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Bangur%20Nagar%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "BLDE Education Society",
+        "image": "https://via.placeholder.com/150?text=BLDE+Education+Society",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Govt. School Bilpar Dandeli (Primary and High School)",
+        "image": "https://via.placeholder.com/150?text=Govt+School+Bilpar",
+        "location": "Bilpar, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Bilpar%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Bangur Nagar Kannada Higher Primary School",
+        "image": "https://via.placeholder.com/150?text=Bangur+Nagar+Kannada+School",
+        "location": "Bangur Nagar, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Bangur%20Nagar%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Adarsh Vidyalaya School (Ambewadi)",
+        "image": "https://via.placeholder.com/150?text=Adarsh+Vidyalaya+School",
+        "location": "Ambewadi, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Ambewadi%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Government Primary School, Ambewadi",
+        "image": "https://via.placeholder.com/150?text=Govt+Primary+School",
+        "location": "Ambewadi, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Ambewadi%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Paridyan School",
+        "image": "https://via.placeholder.com/150?text=Paridyan+School",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      }
+    ],
+    "preUniversity": [
+      {
+        "name": "Bangur Nagar Pre-University Composite Junior College",
+        "image": "https://via.placeholder.com/150?text=Bangur+Nagar+PU+College",
+        "location": "Bangur Nagar, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Bangur%20Nagar%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Janata Vidyalaya",
+        "image": "https://via.placeholder.com/150?text=Janata+Vidyalaya+PU",
+        "location": "Main Road, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Main%20Road%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Tauheed Education Society",
+        "image": "https://via.placeholder.com/150?text=Tauheed+Education+Society+PU",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Government College Old Dandeli",
+        "image": "https://via.placeholder.com/150?text=Govt+College+Old+Dandeli",
+        "location": "Old Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Kanya Vidyalaya Pre-University College Dandeli",
+        "image": "https://via.placeholder.com/150?text=Kanya+Vidyalaya+PU+College",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "K.L.E. Society's Institute of Nursing Sciences, Dandeli",
+        "image": "https://via.placeholder.com/150?text=K.L.E.+Nursing+Institute",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      }
+    ],
+    "degreeColleges": [
+      {
+        "name": "DES Bangaur Nagar Degree College",
+        "image": "https://via.placeholder.com/150?text=DES+Degree+College",
+        "location": "Bangur Nagar, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Bangur%20Nagar%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Govt Degree College, Dandeli",
+        "image": "https://via.placeholder.com/150?text=Govt+Degree+College",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Govt Degree College, Old Dandeli",
+        "image": "https://via.placeholder.com/150?text=Govt+Degree+College+Old+Dandeli",
+        "location": "Old Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Old%20Dandeli%2C%20Karnataka%20-%20581325"
+      }
+    ],
+    "otherInstitutions": [
+      {
+        "name": "Sarvatomukh Vikas Kendra Dandeli (RI)",
+        "image": "https://via.placeholder.com/150?text=Sarvatomukh+Vikas+Kendra",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "S.V.K.'s Andakarimth Udyog Margadarshi Kendra Dandeli",
+        "image": "https://via.placeholder.com/150?text=SVK's+Udyog+Margadarshi+Kendra",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Kali Seva Pratistan Ganesh Nagar Dandeli",
+        "image": "https://via.placeholder.com/150?text=Kali+Seva+Pratistan",
+        "location": "Ganesh Nagar, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Ganesh%20Nagar%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Govt. Tool Room & Training Centre: Ambewadi Industrial Estate",
+        "image": "https://via.placeholder.com/150?text=Tool+Room+%26+Training+Centre",
+        "location": "Ambewadi Industrial Estate, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Ambewadi%20Industrial%20Estate%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "Asha Kiran Rural Private Industrial Training Institute, Ambewadi",
+        "image": "https://via.placeholder.com/150?text=Asha+Kiran+Training+Institute",
+        "location": "Ambewadi, Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Ambewadi%2C%20Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "S.U.C. Polytechnic, Dandeli",
+        "image": "https://via.placeholder.com/150?text=S.U.C.+Polytechnic",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      },
+      {
+        "name": "VTU- National Academy for Skill Development, Dandeli",
+        "image": "https://via.placeholder.com/150?text=VTU+National+Academy",
+        "location": "Dandeli, Karnataka - 581325",
+        "mapLink": "https://www.google.com/maps/search/?api=1&query=Dandeli%2C%20Karnataka%20-%20581325"
+      }
+    ]
+  }
+  
