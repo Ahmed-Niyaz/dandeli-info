@@ -23,6 +23,36 @@ const nextConfig = {
         hostname: "imgs.search.brave.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "sugamatourist.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "5.imimg.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "www.vrlgroup.in",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "www.srstravels.co.in",
+        pathname: "/**",
+      },
     ],
   },
 };
