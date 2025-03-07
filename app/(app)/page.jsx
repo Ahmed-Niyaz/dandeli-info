@@ -21,7 +21,7 @@ export default function Home() {
         {isClient && (
           <div className="absolute inset-0 z-0">
             <Image 
-              src="/dandeli-hero.jpg" 
+              src="/dandeli-river.jpg" 
               alt="Dandeli landscape" 
               fill 
               priority
@@ -53,7 +53,7 @@ export default function Home() {
           
           {/* Call to action buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Link href="/explore" className="px-8 py-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-semibold rounded-full hover:from-yellow-500 hover:to-orange-600 transform hover:scale-105 transition duration-300 shadow-lg">
+            <Link href="/about-dandeli" className="px-8 py-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-semibold rounded-full hover:from-yellow-500 hover:to-orange-600 transform hover:scale-105 transition duration-300 shadow-lg">
               Explore Dandeli
             </Link>
             <Link href="/attractions" className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white border border-white/30 font-semibold rounded-full hover:bg-white/20 transform hover:scale-105 transition duration-300 shadow-lg">
