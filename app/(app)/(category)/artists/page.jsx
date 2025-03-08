@@ -18,7 +18,19 @@ import {
   FaFilter,
 } from "react-icons/fa";
 
-// Sample data for artists - replace with actual data when available
+const artistCategories = [
+  "All",
+  "Mehndi Artist",
+  "Craft Artist",
+  "Rapper/Music Artist",
+  "Makeup Artist",
+  "Photographer",
+  "Painter",
+  "Dancer",
+  "Sculptor",
+  "Standup Comedian"
+];
+
 const artists = [
   {
     id: 1,
@@ -31,14 +43,14 @@ const artists = [
     description: "Creating beautiful henna designs for weddings, festivals, and special occasions. Specializing in bridal mehndi with 8+ years of experience.",
     experience: "8+ years",
     specialties: ["Bridal Mehndi", "Arabic Designs", "Indo-Western Fusion"],
-    image: "https://images.unsplash.com/photo-1595229207358-a1357f4869c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "/artists/mehndi.jpg",
     social: {
       instagram: "priya_henna_art",
       facebook: "priyasharmahennaart",
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1595229207358-a1357f4869c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1582903202526-0697095c8183?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "/artists/mehndi.jpg",
+      "/artists/mehndi.jpg",
     ],
   },
   {
@@ -52,14 +64,14 @@ const artists = [
     description: "Independent hip-hop artist and producer creating original music with local influences. Known for energetic live performances and thought-provoking lyrics.",
     experience: "5+ years",
     specialties: ["Hip-hop", "Desi Beats", "Live Performance"],
-    image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "/artists/rapper.jpg",
     social: {
       instagram: "arjun_beats",
       youtube: "ArjunKhannaMusic",
       spotify: "arjunkhanna",
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "/artists/music-1.jpg",
     ],
   },
   {
@@ -73,15 +85,15 @@ const artists = [
     description: "Handcrafted products using sustainable materials and traditional techniques. Creates decorative items, jewelry, and home decor with local artistic influences.",
     experience: "12+ years",
     specialties: ["Eco-friendly Crafts", "Jewelry", "Home Decor"],
-    image: "https://images.unsplash.com/photo-1619115789075-26c504df01fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "/artists/craft.jpg",
     social: {
       instagram: "meera_crafts",
       facebook: "MeeraPatelHandicraft",
       etsy: "MeeraPatelArt",
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1619115789075-26c504df01fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1560393464-5c69a73c5770?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "/artists/craft-1.jpg",
+      "/artists/craft-2.jpg",
     ],
   },
   {
@@ -95,15 +107,15 @@ const artists = [
     description: "Professional makeup artist specializing in bridal makeup, fashion shoots, and special events. Skilled in both traditional and modern makeup techniques.",
     experience: "7+ years",
     specialties: ["Bridal Makeup", "Fashion Makeup", "Special Effects"],
-    image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "/artists/makeup.jpg",
     social: {
       instagram: "ayesha_makeovers",
       facebook: "AyeshaKhanMUA",
       youtube: "AyeshasMakeupStudio",
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "/artists/makeup-1.jpg",
+      "/artists/makeup-2.jpg",
     ],
   },
   {
@@ -117,30 +129,17 @@ const artists = [
     description: "Capturing the beauty of Dandeli through photography. Specializes in nature, wildlife, and event photography with a unique artistic perspective.",
     experience: "10+ years",
     specialties: ["Wildlife Photography", "Wedding Photography", "Landscape"],
-    image: "https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "/artists/photographer.jpg",
     social: {
       instagram: "rahul_captures",
       facebook: "RahulVermaPhotography",
       twitter: "rahul_lens",
     },
     portfolio: [
-      "https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1558244661-d248897f7bc4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "/artists/photographer-1.jpg",
+      "/artists/photographer-2.jpg",
     ],
   },
-];
-
-const artistCategories = [
-  "All",
-  "Craft Artist",
-  "Rapper/Music Artist",
-  "Standup Comedian",
-  "Makeup Artist",
-  "Mehndi Artist",
-  "Photographer",
-  "Painter",
-  "Dancer",
-  "Sculptor",
 ];
 
 export default function ArtistsPage() {
@@ -354,4 +353,4 @@ export default function ArtistsPage() {
       )}
     </div>
   );
-} 
+}

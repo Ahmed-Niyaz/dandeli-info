@@ -48,8 +48,8 @@ const events = [
     entryFee: "₹200 per person (Children under 12: Free)",
     organizer: "Dandeli Forest Department & Tourism Board",
     images: [
-      "https://images.unsplash.com/photo-1581568694964-421464e1df3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1590931803077-fde2e3640375?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "/event-types/festival.jpg",
+      "/event-types/cultural.jpg"
     ],
     activities: ["Photography Competition", "Wildlife Talks", "Art Exhibition", "Bird Watching Tours", "Local Food Stalls"],
     featured: true,
@@ -70,8 +70,8 @@ const events = [
     entryFee: "₹1000 per team (Registration required)",
     organizer: "Dandeli Adventure Sports Association",
     images: [
-      "https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1372&q=80"
+      "/event-types/sports.jpg",
+      "/event-types/adventure.jpg"
     ],
     activities: ["Rafting Competition", "Safety Workshops", "Equipment Exhibition", "Award Ceremony", "Riverside Camping"],
     featured: true,
@@ -92,8 +92,8 @@ const events = [
     entryFee: "₹100 per person",
     organizer: "Dandeli Cultural Association",
     images: [
-      "https://images.unsplash.com/photo-1511189599525-93d84785eb6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
-      "https://images.unsplash.com/photo-1611457194403-d3aca4cf9d11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1486&q=80"
+      "/event-types/cultural.jpg",
+      "/event-types/festival.jpg"
     ],
     activities: ["Folk Dance", "Traditional Music", "Local Cuisine", "Handicraft Exhibition", "Cultural Workshops"],
     featured: false,
@@ -114,8 +114,8 @@ const events = [
     entryFee: "Free entry",
     organizer: "Dandeli Tourism Development Council",
     images: [
-      "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
-      "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+      "/event-types/festival.jpg",
+      "/event-types/cultural.jpg"
     ],
     activities: ["Cooking Demonstrations", "Food Tasting", "Craft Workshops", "Local Music", "Artisan Market"],
     featured: false,
@@ -136,8 +136,8 @@ const events = [
     entryFee: "₹5,000 per person (includes accommodation and meals)",
     organizer: "Nature Photography Society",
     images: [
-      "https://images.unsplash.com/photo-1520016806993-f9f606aee58c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
-      "https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1380&q=80"
+      "/event-types/workshop.jpg",
+      "/event-types/cultural.jpg"
     ],
     activities: ["Field Sessions", "Post-processing Tutorials", "Equipment Reviews", "Portfolio Reviews", "Nature Walks"],
     featured: false,
@@ -158,8 +158,8 @@ const events = [
     entryFee: "₹600 per day / ₹1000 for both days",
     organizer: "Riverside Productions",
     images: [
-      "https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1499364615650-ec38552f4f34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1372&q=80"
+      "/event-types/music.jpg",
+      "/event-types/festival.jpg"
     ],
     activities: ["Live Performances", "Acoustic Sessions", "DJ Sets", "Food Stalls", "Craft Beer"],
     featured: true,
@@ -180,8 +180,8 @@ const events = [
     entryFee: "₹50 per person",
     organizer: "Tribal Arts Preservation Society",
     images: [
-      "https://images.unsplash.com/photo-1459908676235-d5f02a50184b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "/event-types/exhibition.jpg",
+      "/event-types/cultural.jpg"
     ],
     activities: ["Guided Tours", "Artist Talks", "Demonstration Workshops", "Cultural Performances", "Documentary Screenings"],
     featured: false,
@@ -202,8 +202,8 @@ const events = [
     entryFee: "₹800 - ₹1,500 (based on category)",
     organizer: "Dandeli Runners Club",
     images: [
-      "https://images.unsplash.com/photo-1459908676235-d5f02a50184b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "/event-types/sports.jpg",
+      "/event-types/adventure.jpg"
     ],
     activities: ["Marathon Race", "Health Expo", "Warm-up Sessions", "Medal Ceremony", "Community Run"],
     featured: false,
@@ -225,8 +225,8 @@ const events = [
     entryFee: "₹1,200 per person (Students: ₹600)",
     organizer: "Dandeli Eco Conservation Trust",
     images: [
-      "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1444858291040-58f756a3bdd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "/event-types/workshop.jpg",
+      "/event-types/cultural.jpg"
     ],
     activities: ["Panel Discussions", "Research Presentations", "Field Trips", "Networking Sessions", "Documentary Screenings"],
     featured: false,
@@ -247,8 +247,8 @@ const events = [
     entryFee: "₹150 per person (Children under 10: Free)",
     organizer: "Tribal Cultural Preservation Society",
     images: [
-      "https://images.unsplash.com/photo-1551732998-9573f695fdbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1530538987395-032d1800fdd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "/event-types/cultural.jpg",
+      "/event-types/festival.jpg"
     ],
     activities: ["Traditional Dance", "Music Performances", "Craft Workshops", "Storytelling", "Tribal Cuisine"],
     featured: true,
@@ -269,8 +269,8 @@ const events = [
     entryFee: "₹1,000 per person (Includes meals and equipment)",
     organizer: "Karnataka Birding Society",
     images: [
-      "https://images.unsplash.com/photo-1621478374422-35206faeddfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1549608276-5786777e6587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "/event-types/adventure.jpg",
+      "/event-types/cultural.jpg"
     ],
     activities: ["Bird Watching", "Species Documentation", "Photography", "Expert Talks", "Awards Ceremony"],
     featured: false,
@@ -291,14 +291,45 @@ const events = [
     entryFee: "₹1,500 for 3-day pass, ₹600 for single day",
     organizer: "Dandeli Arts Collective",
     images: [
-      "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1501612780327-45045538702b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "/event-types/music.jpg",
+      "/event-types/festival.jpg"
     ],
     activities: ["Live Performances", "Jam Sessions", "Music Workshops", "Local Food Stalls", "Camping"],
     featured: true,
     upcoming: true
   }
 ];
+
+// Default images
+const DEFAULT_EVENT_IMAGE = "/event-types/default.jpg"; // Default event image
+const DEFAULT_IMAGES = {
+  Festival: "/event-types/festival.jpg",
+  Sports: "/event-types/sports.jpg",
+  Cultural: "/event-types/cultural.jpg",
+  Workshop: "/event-types/workshop.jpg",
+  Music: "/event-types/music.jpg",
+  Exhibition: "/event-types/exhibition.jpg",
+  Adventure: "/event-types/adventure.jpg"
+};
+
+// Add this error handling function
+const getEventImage = (event, index = 0) => {
+  try {
+    // First try the event's specific image
+    if (event.images?.[index]) {
+      return event.images[index];
+    }
+    // Then try type-specific default
+    if (DEFAULT_IMAGES[event.type]) {
+      return DEFAULT_IMAGES[event.type];
+    }
+    // Finally, use the general default
+    return DEFAULT_EVENT_IMAGE;
+  } catch (error) {
+    console.error('Error loading image:', error);
+    return DEFAULT_EVENT_IMAGE;
+  }
+};
 
 // Event types for filtering
 const eventTypes = [
@@ -326,10 +357,13 @@ const UpcomingEventsCarousel = () => (
       <SwiperSlide key={event.id}>
         <div className="relative h-64">
           <Image
-            src={event.images[0]}
+            src={getEventImage(event)}
             alt={event.name}
             fill
             className="object-cover rounded-lg"
+            onError={(e) => {
+              e.currentTarget.src = DEFAULT_EVENT_IMAGE;
+            }}
           />
           <div className="absolute bottom-0 left-0 bg-gradient-to-t from-black to-transparent p-4">
             <h3 className="text-xl font-bold text-white">{event.name}</h3>
@@ -507,10 +541,13 @@ export default function EventsPage() {
               <Card key={event.id} className="overflow-hidden shadow-lg flex flex-col h-full hover:shadow-xl transition-shadow duration-300">
                 <div className="relative h-48">
                   <Image
-                    src={event.images[0]}
+                    src={getEventImage(event)}
                     alt={event.name}
                     fill
                     className="object-cover"
+                    onError={(e) => {
+                      e.currentTarget.src = DEFAULT_EVENT_IMAGE;
+                    }}
                   />
                   <div className="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-md text-xs font-medium">
                     {event.type}
@@ -564,10 +601,13 @@ export default function EventsPage() {
                   {/* Event Image */}
                   <div className="relative w-full md:w-1/3 h-64 md:h-auto rounded-lg overflow-hidden">
                     <Image
-                      src={event.images[0]}
+                      src={getEventImage(event)}
                       alt={event.name}
                       fill
                       className="object-cover"
+                      onError={(e) => {
+                        e.currentTarget.src = DEFAULT_EVENT_IMAGE;
+                      }}
                     />
                     <div className="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-md text-xs font-medium flex items-center gap-1">
                       {getEventIcon(event.type)}
@@ -709,4 +749,4 @@ export default function EventsPage() {
       </div>
     </div>
   );
-} 
+}

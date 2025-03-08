@@ -1,6 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import {
   FaHospital,
   FaStar,
@@ -19,6 +20,9 @@ import {
   FaFilter,
 } from "react-icons/fa";
 import Link from "next/link";
+
+// Add default hospital image constant
+const DEFAULT_HOSPITAL_IMAGE = "/hospitals/hospital.jpg";
 
 // Hospital data for Dandeli
 const hospitals = [
@@ -340,10 +344,16 @@ export default function HospitalsPage() {
                 }`}
               >
                 <div className="h-48 overflow-hidden relative">
-                  <img
-                    src={hospital.image}
+                  <Image
+                    src={DEFAULT_HOSPITAL_IMAGE}
                     alt={hospital.name}
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    // onError={(e) => {
+                    //   // Fallback to default image on error
+                    //   e.currentTarget.src = DEFAULT_HOSPITAL_IMAGE;
+                    // }}
                   />
                   <div className="absolute top-0 left-0 m-4">
                     <span className={`px-2 py-1 rounded-full text-xs font-medium ${
@@ -524,4 +534,4 @@ export default function HospitalsPage() {
       </div>
     </div>
   );
-} 
+}

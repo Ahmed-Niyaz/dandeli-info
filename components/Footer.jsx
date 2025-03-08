@@ -156,23 +156,23 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <FaMapMarkerAlt
-                  className={`mt-1 ${
+                  className={`mt-1 flex-shrink-0 ${
                     currentTheme === "dark" ? "text-blue-400" : "text-blue-600"
                   }`}
                 />
                 <span className="text-base">Dandeli, Karnataka, India</span>
               </li>
-              <li className="flex items-center space-x-3">
+              <li className="flex items-start space-x-3">
                 <FaEnvelope
-                  className={`${
+                  className={`mt-1 flex-shrink-0 ${
                     currentTheme === "dark" ? "text-blue-400" : "text-blue-600"
                   }`}
                 />
-                <span className="text-base">contact@dandeliinfo.com</span>
+                <span className="text-base break-all">contact@dandeliinfo.com</span>
               </li>
-              <li className="flex items-center space-x-3">
+              <li className="flex items-start space-x-3">
                 <FaPhone
-                  className={`${
+                  className={`mt-1 flex-shrink-0 ${
                     currentTheme === "dark" ? "text-blue-400" : "text-blue-600"
                   }`}
                 />
@@ -227,9 +227,9 @@ export default function Footer() {
         {/* Bottom section with copyright */}
         <div className="pt-8 text-center">
           <p className="text-base flex flex-col items-center justify-center gap-2">
-            <span className="flex items-center">
+            {/* <span className="flex items-center">
               Made by the people of Dandeli<FaHeart className="text-red-500 mx-1" />
-            </span>
+            </span> */}
             <span>
               © {new Date().getFullYear()} Dandeli Info. All rights reserved.
             </span>

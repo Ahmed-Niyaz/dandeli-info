@@ -3,6 +3,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
 import AuthProvider from "@/context/AuthProvider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,8 +19,8 @@ export const metadata = {
   title: "Dandeli Info",
   description: "Your comprehensive guide to everything Dandeli has to offer",
   icons: {
-    icon: '/map-marker.svg',
-    apple: '/map-marker.svg',
+    icon: "/map-marker.svg",
+    apple: "/map-marker.svg",
   },
 };
 
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
             {children}
             <Toaster />
           </ThemeProvider>
+          <SpeedInsights />
         </body>
       </AuthProvider>
     </html>

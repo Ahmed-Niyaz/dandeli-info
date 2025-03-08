@@ -153,28 +153,31 @@ export default function Home() {
         </div>
       </section>
       
-      {/* About Dandeli Section - Now with real image */}
+      {/* About Dandeli Section - Now with mobile-responsive image */}
       <section className="py-16 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
-            <div className="lg:w-1/2 mb-12 lg:mb-0">
-              <div className="relative">
+            <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
+              <div className="relative w-full">
                 <div className="rounded-2xl overflow-hidden shadow-xl">
-                  <div className="aspect-w-4 aspect-h-3 w-full relative h-96">
+                  <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px]">
                     <Image 
                       src="/dandeli-river.jpg" 
                       alt="Scenic view of Kali River in Dandeli"
                       fill
                       className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       priority
                     />
                   </div>
                 </div>
-                <div className="absolute -top-6 -left-6 w-48 h-48 bg-yellow-400 rounded-xl -z-10"></div>
-                <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-400 rounded-xl -z-10"></div>
+                {/* Decorative elements */}
+                <div className="absolute -top-6 -left-6 w-24 h-24 sm:w-48 sm:h-48 bg-yellow-400 rounded-xl -z-10"></div>
+                <div className="absolute -bottom-6 -right-6 w-24 h-24 sm:w-48 sm:h-48 bg-blue-400 rounded-xl -z-10"></div>
               </div>
             </div>
             
+            {/* Rest of the About section content */}
             <div className="lg:w-1/2">
               <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">About Dandeli</h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
