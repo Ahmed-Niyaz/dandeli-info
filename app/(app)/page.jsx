@@ -7,27 +7,57 @@ import Image from "next/image";
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
+  const heroImages = [
+    "/dandeli-images/dandeli-river.jpg",
+    "/dandeli-images/kali-river.jpg",
+    "/dandeli-images/dandeli-hills.jpg",
+    "/dandeli-images/dam.jpg",
+    "/dandeli-images/timber.jpg",
+    "/dandeli-images/logging.jpg",
+    "/dandeli-images/starling.jpg",
+    "/dandeli-images/malabar-giant-squirrel.jpg"
+  ];
 
   // Mark when component is mounted on client
   useEffect(() => {
     setIsClient(true);
   }, []);
 
+  // Image slider effect
+  useEffect(() => {
+    if (!isClient) return;
+    
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        prevIndex === heroImages.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 5000); // Change image every 5 seconds
+    
+    return () => clearInterval(interval);
+  }, [isClient, heroImages.length]);
+
   return (
     <main className="min-h-screen">
       {/* Hero Section - Full-width image background with overlay */}
       <section className="relative h-[95vh] overflow-hidden">
-        {/* Background image */}
+        {/* Background images */}
         {isClient && (
           <div className="absolute inset-0 z-0">
-            <Image 
-              src="/dandeli-river.jpg" 
-              alt="Dandeli landscape" 
-              fill 
-              priority
-              className="object-cover"
-              sizes="100vw"
-            />
+            {heroImages.map((src, index) => (
+              <Image 
+                key={src}
+                src={src} 
+                alt={`Dandeli landscape ${index + 1}`} 
+                fill 
+                priority={index === 0}
+                className={`object-cover transition-opacity duration-1000 ${
+                  currentImageIndex === index ? 'opacity-100' : 'opacity-0'
+                }`}
+                sizes="100vw"
+              />
+            ))}
           </div>
         )}
         
@@ -36,9 +66,9 @@ export default function Home() {
         
         {/* Decorative elements */}
         <div className="absolute inset-0 z-20">
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-blue-400 mix-blend-overlay filter blur-3xl opacity-30 animate-pulse"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-teal-400 mix-blend-overlay filter blur-3xl opacity-30 animate-pulse animation-delay-2000"></div>
-          <div className="absolute top-1/2 right-1/3 w-64 h-64 rounded-full bg-yellow-300 mix-blend-overlay filter blur-3xl opacity-20 animate-pulse animation-delay-4000"></div>
+          <div className="absolute top-1/3 left-1/4 w-80 h-80 rounded-full bg-blue-400/30 mix-blend-soft-light filter blur-3xl opacity-30 glow-effect" style={{animationDelay: "0s"}}></div>
+          <div className="absolute bottom-1/3 right-1/4 w-80 h-80 rounded-full bg-teal-400/30 mix-blend-soft-light filter blur-3xl opacity-30 glow-effect" style={{animationDelay: "2s"}}></div>
+          <div className="absolute top-1/2 right-1/3 w-72 h-72 rounded-full bg-yellow-300/20 mix-blend-soft-light filter blur-3xl opacity-20 glow-effect" style={{animationDelay: "4s"}}></div>
         </div>
         
         {/* Content */}
@@ -50,6 +80,22 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-white/90 mb-8 text-center max-w-2xl drop-shadow-md">
             Your comprehensive guide to everything Dandeli has to offer
           </p>
+          
+          {/* Image slider indicator dots */}
+          <div className="flex justify-center space-x-2 mb-6">
+            {heroImages.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentImageIndex(index)}
+                className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                  currentImageIndex === index 
+                    ? 'bg-white scale-125' 
+                    : 'bg-white/50 hover:bg-white/80'
+                }`}
+                aria-label={`View slide ${index + 1}`}
+              />
+            ))}
+          </div>
           
           {/* Call to action buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">

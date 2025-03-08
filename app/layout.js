@@ -17,6 +17,10 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Dandeli Info",
   description: "Your comprehensive guide to everything Dandeli has to offer",
+  icons: {
+    icon: '/map-marker.svg',
+    apple: '/map-marker.svg',
+  },
 };
 
 export default function RootLayout({ children }) {
