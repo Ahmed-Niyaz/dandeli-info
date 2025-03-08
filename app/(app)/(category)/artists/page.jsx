@@ -85,7 +85,7 @@ const artists = [
     description: "Handcrafted products using sustainable materials and traditional techniques. Creates decorative items, jewelry, and home decor with local artistic influences.",
     experience: "12+ years",
     specialties: ["Eco-friendly Crafts", "Jewelry", "Home Decor"],
-    image: "/artists/craft.jpg",
+    image: "/artists/craft.png",
     social: {
       instagram: "meera_crafts",
       facebook: "MeeraPatelHandicraft",
