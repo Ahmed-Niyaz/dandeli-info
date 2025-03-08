@@ -236,7 +236,7 @@ export default function Footer() {
           </p>
           <div className="mt-2 text-sm flex justify-center space-x-4">
             <Link
-              href="/privacy-policy"
+              href="/#"
               className={`${
                 currentTheme === "dark"
                   ? "text-gray-400 hover:text-blue-400"
@@ -246,7 +246,7 @@ export default function Footer() {
               Privacy Policy
             </Link>
             <Link
-              href="/terms-of-service"
+              href="#"
               className={`${
                 currentTheme === "dark"
                   ? "text-gray-400 hover:text-blue-400"
@@ -255,7 +255,7 @@ export default function Footer() {
             >
               Terms of Service
             </Link>
-            <Link
+            {/* <Link
               href="/sitemap"
               className={`${
                 currentTheme === "dark"
@@ -264,7 +264,7 @@ export default function Footer() {
               }`}
             >
               Sitemap
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

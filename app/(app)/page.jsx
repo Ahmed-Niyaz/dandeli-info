@@ -52,7 +52,7 @@ export default function Home() {
                 alt={`Dandeli landscape ${index + 1}`} 
                 fill 
                 priority={index === 0}
-                className={`object-cover transition-opacity duration-1000 ${
+                className={`object-cover brightness-90 transition-opacity duration-1000 ${
                   currentImageIndex === index ? 'opacity-100' : 'opacity-0'
                 }`}
                 sizes="100vw"
@@ -61,75 +61,51 @@ export default function Home() {
           </div>
         )}
         
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/70 via-blue-800/60 to-blue-700/50 z-10"></div>
+        {/* Gradient overlay - adjusted for better visibility */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent z-10"></div>
         
-        {/* Decorative elements */}
-        <div className="absolute inset-0 z-20">
-          <div className="absolute top-1/3 left-1/4 w-80 h-80 rounded-full bg-blue-400/30 mix-blend-soft-light filter blur-3xl opacity-30 glow-effect" style={{animationDelay: "0s"}}></div>
-          <div className="absolute bottom-1/3 right-1/4 w-80 h-80 rounded-full bg-teal-400/30 mix-blend-soft-light filter blur-3xl opacity-30 glow-effect" style={{animationDelay: "2s"}}></div>
-          <div className="absolute top-1/2 right-1/3 w-72 h-72 rounded-full bg-yellow-300/20 mix-blend-soft-light filter blur-3xl opacity-20 glow-effect" style={{animationDelay: "4s"}}></div>
-        </div>
-        
-        {/* Content */}
-        <div className="container mx-auto px-6 h-full flex flex-col justify-center items-center relative z-30">
-          <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 text-center max-w-4xl leading-tight drop-shadow-lg">
-            Discover the Beauty of <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">Dandeli</span>
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-white/90 mb-8 text-center max-w-2xl drop-shadow-md">
-            Your comprehensive guide to everything Dandeli has to offer
-          </p>
-          
-          {/* Image slider indicator dots */}
-          <div className="flex justify-center space-x-2 mb-6">
-            {heroImages.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentImageIndex(index)}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                  currentImageIndex === index 
-                    ? 'bg-white scale-125' 
-                    : 'bg-white/50 hover:bg-white/80'
-                }`}
-                aria-label={`View slide ${index + 1}`}
-              />
-            ))}
-          </div>
-          
-          {/* Call to action buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Link href="/about-dandeli" className="px-8 py-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-semibold rounded-full hover:from-yellow-500 hover:to-orange-600 transform hover:scale-105 transition duration-300 shadow-lg">
-              Explore Dandeli
-            </Link>
-            <Link href="/attractions" className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white border border-white/30 font-semibold rounded-full hover:bg-white/20 transform hover:scale-105 transition duration-300 shadow-lg">
-              View Attractions
-            </Link>
-          </div>
-          
-          {/* Quick stats - Removed search bar and monthly users */}
-          <div className="flex flex-wrap justify-center gap-12 text-white">
-            <div className="text-center">
-              <p className="text-4xl font-bold mb-1">25+</p>
-              <p className="text-sm uppercase tracking-wider opacity-80">Services</p>
+        {/* Content - adjusted positioning and max-width */}
+        <div className="container mx-auto px-6 h-full flex flex-col justify-end pb-32 relative z-30">
+          <div className="max-w-3xl mx-auto text-center">
+            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+              Discover the Beauty of <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-400">Dandeli</span>
+            </h1>
+            
+            <p className="text-lg md:text-xl text-white/90 mb-8 drop-shadow-md">
+              Your comprehensive guide to everything Dandeli has to offer
+            </p>
+            
+            {/* Image slider indicator dots */}
+            <div className="flex justify-center space-x-2 mb-8">
+              {heroImages.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrentImageIndex(index)}
+                  className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                    currentImageIndex === index 
+                      ? 'bg-white scale-125' 
+                      : 'bg-white/50 hover:bg-white/80'
+                  }`}
+                  aria-label={`View slide ${index + 1}`}
+                />
+              ))}
             </div>
-            <div className="text-center">
-              <p className="text-4xl font-bold mb-1">100+</p>
-              <p className="text-sm uppercase tracking-wider opacity-80">Listings</p>
+            
+            {/* Call to action buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/about-dandeli" className="px-8 py-3 bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-semibold rounded-full hover:from-yellow-500 hover:to-orange-600 transform hover:scale-105 transition duration-300 shadow-lg">
+                Explore Dandeli
+              </Link>
+              <Link href="/tourist-places" className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white border border-white/30 font-semibold rounded-full hover:bg-white/20 transform hover:scale-105 transition duration-300 shadow-lg">
+                View Attractions
+              </Link>
             </div>
           </div>
-        </div>
-        
-        {/* Simple animated scroll indicator (no functionality) */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
-          <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-          </svg>
         </div>
       </section>
 
       {/* Featured Categories Section */}
-      <section id="categories-section" className="py-24 bg-white dark:bg-gray-900">
+      <section id="categories-section" className="py-16 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Explore Dandeli</h2>
@@ -178,7 +154,7 @@ export default function Home() {
       </section>
       
       {/* About Dandeli Section - Now with real image */}
-      <section className="py-24 bg-gray-50 dark:bg-gray-800">
+      <section className="py-16 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2 mb-12 lg:mb-0">
@@ -225,7 +201,7 @@ export default function Home() {
       </section>
       
       {/* Services Highlights */}
-      <section className="py-24 bg-white dark:bg-gray-900">
+      <section className="py-16 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Essential Services</h2>

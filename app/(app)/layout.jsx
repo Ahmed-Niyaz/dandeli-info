@@ -5,7 +5,7 @@ export default async function RootLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen relative">
       <Navbar />
-      <main className="flex-grow pt-16 pb-4">
+      <main className="flex-grow pt-16">
         {children}
       </main>
       <Footer />
